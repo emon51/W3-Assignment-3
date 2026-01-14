@@ -1,6 +1,6 @@
 # Flight Data API
 
-A simple Node.js API to fetch flight related data from Booking.com and save in a PostgreSQL database using Docker.
+A simple Node.js API to fetch flight related data from Booking.com and save as a csv files after getting data save manually in a PostgreSQL database using Docker by running raw SQL INSERET commands.
 
 
 ## Features
@@ -27,7 +27,7 @@ node flight-server.js
 ```
 
 2. **Fetch flight data**
-   - Uncomment (line: 148) and run run() function in flight-server.js to retrieve and save flight details information in PostgreSQL database.
+   - Uncomment (line: 148) and run run() function in flight-server.js to retrieve and save flight details information as a csv file.
   
 
 ## Collect Attraction Data
